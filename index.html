@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B-DayBuddy | Birthday Reminders & Quotes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>B-DayBuddy</h1>
+        
+        <div class="birthday-form">
+            <input type="text" id="nameInput" placeholder="Enter Name">
+            <input type="date" id="dateInput">
+            <button id="addBtn">Add Birthday</button>
+        </div>
+        
+        <div class="birthdays-list">
+            <h2>Upcoming Birthdays</h2>
+            <ul id="birthdayList">
+            </ul>
+        </div>
+        
+        <div class="quote-section">
+            <h2>Birthday Quote</h2>
+            <button id="quoteBtn">Get Birthday Quote</button>
+            <div id="quoteDisplay" class="quote-box">
+                <p id="quoteText">Your inspirational quote will appear here...</p>
+                <p id="quoteAuthor" class="author"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
