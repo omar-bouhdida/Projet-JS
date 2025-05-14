@@ -52,4 +52,4 @@ A simple and user-friendly web application for managing birthdays and displaying
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/birthday-tracker.git
+   git clone https://github.com/omar-bouhdida/Projet-JS.git
